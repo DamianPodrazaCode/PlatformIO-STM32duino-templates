@@ -5,6 +5,8 @@ void setup() {
     pinMode(LED_GREEN, OUTPUT);
     pinMode(LED_ORANGE, OUTPUT);
     pinMode(LED_RED, OUTPUT);
+
+    Serial.begin();  //USB CDC, ustawienia w platformio.ini
 }
 
 void loop() {
@@ -16,4 +18,6 @@ void loop() {
     delay(100);
     digitalToggle(LED_RED);
     delay(100);
+
+    Serial.println(millis());
 }
