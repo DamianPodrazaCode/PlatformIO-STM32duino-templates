@@ -1,2 +1,2 @@
 # PlatformIO-STM32duino-templates
-PlatformIO STM32duino Discovery Nucleo Templates
+PlatformIO STM32duino Discovery Nucleo Templates 1
